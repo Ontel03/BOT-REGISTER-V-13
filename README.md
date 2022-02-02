@@ -35,8 +35,9 @@ Nah segitu aja penjelasan saya dan mohon maaf kalo saya menjelaskannya kurang je
 Thanks You🙏
 
 🔗 Link:
-
+{
 Youtube Syahiril: https://www.youtube.com/channel/UCz30CHhoifrK6amZ5eKAIEQ/
 Developer Bot: https://discord.com/developers/applications
 Glitch: https://glitch.com/
 Replit: https://replit.com/
+}
