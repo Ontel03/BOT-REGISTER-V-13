@@ -11,6 +11,8 @@ app.listen(port, () => console.info(`Listening on port ${port}`));
 
 //package
 const { Client, Collection, Intents } = require('discord.js');
+const fs = require("fs");
+const { loadCommands } = require("./handler/loadcommands");
 const { readdirSync } = require('fs');
 const { TOKEN } = require('./util/config.json');
 
@@ -36,10 +38,11 @@ const client = new Client({
   allowedMentions: { parse: ['users', 'roles'], repliedUser: true },
   restTimeOffset: 0,
 });
-
 // commands
 client.commands = new Collection();
+client.categories = fs.readdirSync("./commands/");
 
+loadCommands(client);
 // events & handling
 const eventFiles = readdirSync('./events').filter((file) => file.endsWith('.js'));
 const commandFolders = readdirSync('./commands');
