@@ -1,0 +1,41 @@
+{
+  "name": "bot-register",
+  "version": "7.0.0-stable",
+  "description": "bot register",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.13.2",
+    "npm": ">=7.20.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tester",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "glob": "^7.2.0",
+    "node": "^16.13.2"
+  },
+  "devDependencies": {
+    "node": "^16.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com"
+  },
+  "keywords": [
+    "open-source",
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "multi-purpose-bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ontel03/BOT-REGISTER-V-13/issues"
+  },
+  "homepage": "https://github.com/Ontel03/BOT-REGISTER-V-13#readme"
+}
